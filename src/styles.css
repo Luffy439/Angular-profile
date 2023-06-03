@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "OpenSans-Regular";
+    src: url("../src/assets//fonts/OpenSans-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Tajawal-Bold";
+    src: url("../src/assets/fonts/Tajawal-Bold.ttf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
